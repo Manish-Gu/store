@@ -1,0 +1,150 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.main{
+    width: 100%;
+    background-image: url(./images/sure.jpeg);
+    background-position:center;
+    background-size: cover;
+    height: 100vh;
+  }
+  .navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+  }
+  .icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+  }
+  .logo{
+    color:red;
+    font-size:35px;
+    font-family: Arial,;
+    padding-left: 5px;
+    float: left;
+    padding-top: 10px;
+}
+.menu{
+  height: 70px;
+  width: 400px;
+  float: left;
+}
+ul{
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul li{
+  list-style: none;
+  margin-left:  60px;
+  margin-top: 27px;
+  font-size: 20px;
+ 
+ 
+}
+ul li a{
+  text-decoration: none;
+  color:black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+ul li a:hover{
+  color: red;
+}
+.search{
+  width: 330px;
+  float: left;
+  margin-left: 270px;
+}
+.srch{
+  font-family: 'Times New Roman', Times, serif;
+  width: 200px;
+  height: 40px;
+  background: transparent;
+  border: 2px solid black;
+  margin-top: 15px;
+  color: black;
+  border-right: none;
+  font-size: 20px;
+  float: left;
+  padding: 10px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.btn{
+  width: 100px;
+  height: 40px;
+  background: transparent;
+  border: 2px solid black;
+  margin-top: 15px;
+  color: black;
+  font-size: 16px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.btn:focus{
+  outline: none;
+}
+
+.srch:focus{
+  outline: none;
+}
+.content{
+  width: 1200px;
+  height: auto;
+  margin: auto;
+  color: black;
+  position: relative;
+}
+.content p{
+  padding-left: 20px;
+  padding-bottom: 25px;
+  letter-spacing: 1.2px;
+  line-height: 30px;
+  font-size: 30px;
+  color: black;
+}
+.content h1{
+  font-size: 50px;
+  padding-left: 20px;
+  margin-top: 5%;
+  letter-spacing: 2px;
+  color:rgb(255, 0, 0);
+}
+.content span{
+  color: black;
+  font-size: 60px;
+}
+.content .cn{
+  width: 160px;
+  height: 40px;
+  background:white;
+ border: none;
+ margin-bottom: 10px;
+ margin-left: 20px;
+ font-size: 20px;
+ border-radius: 10px;
+ cursor: pointer;
+ transition: .4s ease;
+ text-align: center;
+}
+.content .cn a{
+  text-decoration: none;
+  color: skyblue;
+  transition: .3s ease;
+}
+.cn:hover{
+  background-color: black
+}
+.form{
+  width: 250px;
+  height: 380px;
+  background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%,;
+  position: absolute;
+  top: -20px;
+  left: 870px;
+}
